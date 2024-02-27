@@ -1,0 +1,70 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f5f5f5; /* Change this to your preferred background color */
+    font-family: Arial, sans-serif; /* Change the font-family if desired */
+}
+
+/* Style the header section */
+header {
+    background-color: #333; /* Change this to your header background color */
+    color: #fff; /* Header text color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Adjust the spacing between menu items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Menu item text color */
+}
+
+/* Style the main content sections */
+section {
+    padding: 20px;
+    background-color: #fff; /* Section background color */
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow to sections */
+}
+
+/* Style headings */
+h1, h2, h3 {
+    color: #333; /* Heading text color */
+}
+
+/* Style links */
+a {
+    color: #007acc; /* Link color */
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #005f99; /* Link color on hover */
+}
+
+/* Style the footer */
+footer {
+    background-color: #333; /* Footer background color */
+    color: #fff; /* Footer text color */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    /* Add styles for smaller screens here */
+}

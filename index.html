@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Website for IEEE Robotics Club</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+</body>
+<nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+  <div class="container">
+      <!-- <a class="navbar-brand" href="#">IEEE Robotics Club</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#home">Home</a>
+              </li>
+              <!-- <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+              </li> -->
+              <li class="nav-item">
+                  <a class="nav-link" href="#learning">Learning</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#people">People</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#News">News</a>
+        </li> -->
+          </ul>
+          
+      </div>
+  </div>
+</nav>
+ <!-- main banner -->
+ <section class="bgimage" id="home">
+  <div class="container-fluid">
+      <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+          <h2 class="hero_title">WSU Data Science Club</h2>
+          <p class="hero_desc">Hands-on Experience, Knowledge, and Fun!</p>
+          <p class="hero_desc">Interested? Contact: fujian_dot_yan_at_wichita.edu</p>
+      </div>
+      </div>
+  </div>
+</section>
+<!-- about section
+<section id="about">
+  <div class="container mt-4 pt-4">
+      <h1 class="text-center">About Me</h1>
+      <div class="row mt-4">
+          <div class="col-lg-4">
+              <img src="images/about_me.svg" class= "imageAboutPage" alt="">
+          </div>
+
+          <div class="col-lg-8">
+              <p>   
+                <font size="+3">IEEE Robotics Club is a student-driven group that meets during Fall and Spring semesters with a focus on hardware, software, and mechanical aspects of robotics and automation.</font> 
+              </p>
+          </div>
+      </div>
+</section> -->
+<!-- Learning section-->
+<section id="learning">
+  <div class="container">
+      <h1 class="text-center">Learning</h1>
+      <div class="row">
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class="fas servicesIcon fa-bolt"></i>
+                      <h4 class="card-title mt-3">Platform</h4>
+                      <p class="card-text mt-3"> You will gain experience in how to design circuits to control robots with sensor fusion. 
+                      </p>
+                  </div>
+              </div>  
+          </div>
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='fas servicesIcon fa-layer-group'></i>
+                      <h4 class="card-title mt-3">Algorithm</h4>
+                      <p class="card-text mt-3">To offer a platform for students and the community to learn, collaborate, and network, connecting them with industry professionals and providing opportunities for involvement in practical, interdisciplinary data science projects.
+                      </p>
+                  </div>
+              </div>  
+          </div>
+
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='fas servicesIcon fa-wrench'></i>
+                      <h4 class="card-title mt-3">Career Development</h4>
+                      <p class="card-text mt-3">Offer resources, mentorship, and support to help members advance their careers in data science, including resume workshops, interview preparation, and networking events.
+                      </p>
+                  </div>
+              </div>  
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='fas servicesIcon fa fa-black-tie'></i>
+                      <h4 class="card-title mt-3">Practical Experience</h4>
+                      <p class="card-text mt-3">You can get a chance to have a tour of the local industry. 
+      
+                      </p>
+                  </div>
+              </div>  
+          </div>
+
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='fas servicesIcon fa-award'></i>
+                      <h4 class="card-title mt-3">Competition</h4>
+                      <p class="card-text mt-3"> You will participate in Kaggle Competition. 
+                      </p>
+                  </div>
+              </div>  
+          </div>
+
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='fas servicesIcon fas fa-people-arrows'></i>
+                      <h4 class="card-title mt-3">Social</h4>
+                      <p class="card-text mt-3">You will meet friends who are interest in data science!
+                      </p>
+                  </div>
+              </div>  
+          </div>
+      </div>
+  </div>
+</section>
+<!-- portfolio section-->
+    <section id="people">
+        <div class="container mt-3">
+            <h1 class="text-center">People</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/Fujian_Yan.jpeg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Fujian Yan, Ph.D.</h4>
+                            <p class="card-text">
+                              <font size=-1>
+                              Fujian is an assistant teaching professor at the School of Computing at Wichita State University. His research interests are in intelligent robots, machine learning, and artificial intelligence.</p></font>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/sai_lakshimi.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Sai Lakshmi Jashti</h4>
+                            <p class="card-text">
+                                <font size=-1></p>
+                                    Sai Lakshmi is pursuing a Master's degree, specilizing in robotics with a research focus on advancing autonomous robotics systems using artificial intelligence and machine learning.</p>
+                                </font>
+                        </div>
+                    </div>
+                </div> 
+
+                <!-- <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/Teresa_Vu.jpeg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Teresa Vu</h4>
+                            <p class="card-text">
+                                <font size=-1>
+                                Teresa is a computer science major with a strong passion for the IT sector, where she possesses hands-on experience in enhancing machine functionality and performance.</p>
+                            </font>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/Thi_Tran.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Thi Tran</h4>
+                            <p class="card-text">
+                                <font size=-1>
+                                    My name is Thi Tran and I'm currently in Computer Science major. I am interested in working, and building machines in practice and want to learn more about using programs and connecting robotics functions for different purposes.</p>
+                            </font>
+                        </div>
+                    </div>
+                </div>                  -->
+            </div>
+    </section>
+    <!-- contact section-->
+    <section id="contact">
+      <div class="container mt-3 contactContent">
+          <h1 class="text-center">Contact Me</h1>
+
+          <div class="row mt-4">
+              <div class="col-lg-6">
+                  <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                  <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                      <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                          <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Wallace+Hall&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                          </iframe>
+                      </div>
+                      <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                      <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                      </style>
+                  </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="card-body">
+                  <h4 class="card-title">Fujian Yan, Ph.D.</h4>
+                  <p class="card-text">Office: Jabara Hall 222</p>
+                  <p class="card-text">Lab: Wallace Hall 330</p>
+                  <p class="card-text">Email: fujian.yan_at_wichita.edu</p>
+
+
+                  <h4 class="card-title">Sai Lakshmi Jashti</h4>
+                  <p class="card-text">Lab: Wallace Hall 330</p>
+                  <p class="card-text">Email: sxjashti_at_shockers.wichita.edu</p>
+          </div>
+      </div>
+  </section>
+   <!-- footer section-->
+   <footer id="footer">
+    <div class="container-fluid">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+</footer>
+</html>
